@@ -1,0 +1,13 @@
+{
+  "name": "visual-qa-auditor",
+  "description": "Autonomous auditor for visual parity, layout ratios, interactive states, and modal scroll locking.",
+  "tools": [
+    "view_file",
+    "grep_search"
+  ],
+  "rules": [
+    "Compare UI against reference screenshots at multiple viewports",
+    "Verify keyboard navigation (Escape, Arrow Left/Right in Lightbox)",
+    "Check scroll locking on open modal states (PhotoTour, AmenitiesModal)"
+  ]
+}
